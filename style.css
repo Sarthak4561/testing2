@@ -1,0 +1,15 @@
+*{
+    box-sizing: 0;
+    border: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+    padding-bottom: 25%;
+}

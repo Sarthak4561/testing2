@@ -1,15 +1,42 @@
 *{
-    box-sizing: 0;
-    border: 0;
-    background-color: black;
-    color: whitesmoke;
+    box-sizing: border-box;
+
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20%;
-    padding-bottom: 25%;
+.bg-image{
+    background-image:url("picture.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    filter: blur(8px);
+}
+
+h1{
+    font-size:70px;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+h3{
+    font-family: 'Lexend Giga', sans-serif;
+}
+.Contact{
+    color: black;
+     text-decoration: none;
+}
+
+.main-txt{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
 }
